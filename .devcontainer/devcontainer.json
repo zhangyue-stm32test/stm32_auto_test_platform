@@ -1,0 +1,14 @@
+{
+  "name": "STM32 Auto Test Env",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu-22.04",
+  "runArgs": ["--privileged"],
+  "postCreateCommand": ".devcontainer/setup_env.sh",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.cmake-tools",
+        "ms-python.python"
+      ]
+    }
+  }
+}
